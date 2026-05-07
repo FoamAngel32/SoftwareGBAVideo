@@ -18,7 +18,7 @@
  - 15.in the `Play` area, set the Action to the action we just saved, in my case, it's `Action 1`
  - 16.in the `Source` area, make the source `folder`, and click `Choose` and select `res/gfx`
  - 17.in the `Destination` area, make the destination `folder`, again, click `Choose` and select `res/gfx`
- - 18.make sure the `File Naming area looks like this`
+ - 18.make sure the `File Naming` area looks like this  
  ![Image not present yet, will be upload as soon as posible](./doc/AutoBatch.png)
  - 19.click `Okay`, and now photoshop will process every image for you.
  
