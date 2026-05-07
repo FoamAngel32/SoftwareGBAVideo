@@ -5,7 +5,7 @@ Both playback and conversion toolchain included
  - `Python 3` (Third Party Modules will auto install by scripts)
  - `devkitpro` (or `devkitarm` + `libgba` + `libmm` + `grit` + `mmutil`)
 # How to build
- - 1.make sure every image is using the same 256 color palette(Detail see `palette.md`)
+ - 1.make sure every image is using the same 256 color palette(see `palette.md` for how to create one)
  - 2.if your image is already scaled into 240x160, put it into `res/gfx`, and jump to step 6
  - 3.put your unscaled image into `res/og`
  - 4.run `tools/ConvertImage.py`, this will make sure your video is 160 scanlines and add border to reach 240x160
