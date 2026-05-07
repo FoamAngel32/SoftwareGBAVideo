@@ -1,5 +1,5 @@
-# How to make images in right format?
-Sadly, I don't know if there is any way eaier than this
+# How to apply a shared 256‑color palette to all frames (Photoshop)
+Sadly, I don't know if there is any way eaier than this  
 So, Why not just follow these steps?
 ## 1.In Photoshop
  - 1.find the most colorful image in your video.
