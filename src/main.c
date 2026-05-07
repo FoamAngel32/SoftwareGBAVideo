@@ -35,8 +35,8 @@ int main(void)
     BGCTRL[2] = BG_16_COLOR | BG_SIZE_0 | (2 << 2) | (27 << 8);
     BGCTRL[3] = BG_16_COLOR | BG_SIZE_0 | (3 << 2) | (28 << 8);
 
-    dmaCopy(paletteSharedPal, &BG_PALETTE[0], bad_apple_paletteSharedPalLen);
-    // BG_PALETTE[0xFC] = BG_PALETTE[0xFD] = BG_PALETTE[0xFE] = BG_PALETTE[0xFF] = RGB8(255, 255, 255);
+    dmaCopy(paletteSharedPal, &BG_PALETTE[0], paletteSharedPalLen);
+    BG_PALETTE[0xFC] = BG_PALETTE[0xFD] = BG_PALETTE[0xFE] = BG_PALETTE[0xFF] = RGB8(255, 255, 255);
     // This line is only for bad apple demo which only have 252 colors
     // mmEffect(SFX_VIDEO_TRACK);
     while (1)
