@@ -12,7 +12,7 @@ Both playback and conversion toolchain included
  - 4.run `tools/ConvertImage.py`, this will make sure your video is 160 scanlines and add border to reach 240x160
  - 5.check the `res/gfx` folder to make sure that your images are there
  - 6.run `tools/GenerateGrit.py` to generate an `.grit` for each images
- - 7.Put your video palette(256 colors limits) into the folder named `palette.png`, and DO NOT delete the `palette.grit`
+ - 7.Put your video palette(256 colors limits) into `res/gfx` named `palette.png`, and DO NOT delete the `palette.grit`
  - 8.run `tools/FrameTool.py`
  - 9.run the `build.bat`(For WINDOWS only) or do it manually in your command line
 And now you should have `SoftwareGBAVideo.gba` in the `build` folder
