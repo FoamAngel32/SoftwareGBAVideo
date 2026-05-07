@@ -1,0 +1,5 @@
+# grit config for GBA shared palette
+-g!
+
+# use lz77 compression
+-pS
