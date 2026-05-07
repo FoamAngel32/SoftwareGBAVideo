@@ -1,4 +1,6 @@
-# How to create Palette.png?
+# How to make images in right format?
+Sadly, I don't know if there is any way eaier than this
+So, Why not just follow these steps?
 ## 1.In Photoshop
  - 1.find the most colorful image in your video.
  - 2.open it in Photoshop, click `Image`>`Mode`>`Indexed Color`
