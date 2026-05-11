@@ -1,5 +1,5 @@
 # Intro
-In this case, I'll show you how to prepare frames for this Software decoding thing
+In this case, I'll show you how to prepare frames for this Software decoding thing  
 I'll use photoshop for example.
 # 0.Setup Photoshop
  - 1.click `File`>`Export`>`Export Preferences`
